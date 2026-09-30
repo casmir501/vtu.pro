@@ -22,7 +22,7 @@ const S = {
     count:
         Number(
             localStorage.getItem("vtu_count")
-        ) || 12
+        ) || 0
 
 };
 
