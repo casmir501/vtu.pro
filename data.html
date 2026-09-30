@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>VtuPro - Buy Data</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+    <aside class="side">
+
+        <a class="brand"
+           href="dashboard.html">
+
+            <span class="mark">⚡</span>
+
+            <span>VtuPro</span>
+
+        </a>
+
+
+        <a href="dashboard.html">
+            🏠 Dashboard
+        </a>
+
+        <a class="active"
+           href="data.html">
+            📶 Buy Data
+        </a>
+
+        <a href="airtime.html">
+            📱 Buy Airtime
+        </a>
+
+        <a href="electricity.html">
+            ⚡ Pay Electricity
+        </a>
+
+        <a href="wallet.html">
+            💳 Wallet
+        </a>
+
+        <a href="transactions.html">
+            🧾 Transactions
+        </a>
+
+        <a href="#">
+            🎧 Support
+        </a>
+
+        <a href="#">
+            ⚙️ Settings
+        </a>
+
+        <a class="logout"
+           href="index.html">
+            ↪ Logout
+        </a>
+
+    </aside>
+
+
+    <main class="main">
+
+
+        <header class="apphead">
+
+            <b>
+                Buy Data
+            </b>
+
+            <div class="avatar">
+                J
+            </div>
+
+        </header>
+
+
+        <section class="content">
+
+
+            <h1>
+                Buy Data
+            </h1>
+
+            <p class="muted">
+                Select your network and data plan.
+            </p>
+
+
+            <br>
+
+
+            <div class="panel purchase">
+
+
+                <b class="label">
+                    Network
+                </b>
+
+
+                <div class="network">
+
+                    <button
+                        class="active"
+                        onclick="pick(this)">
+                        MTN
+                    </button>
+
+                    <button onclick="pick(this)">
+                        Airtel
+                    </button>
+
+                    <button onclick="pick(this)">
+                        Glo
+                    </button>
+
+                    <button onclick="pick(this)">
+                        9mobile
+                    </button>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Phone Number
+                    </label>
+
+                    <input
+                        class="input"
+                        placeholder="Enter 11-digit phone number">
+
+                </div>
+
+
+                <h3>
+                    Data Plans
+                </h3>
+
+
+                <div class="plans">
+
+
+                    <div class="plan">
+
+                        <span>
+                            500MB
+                            <small>
+                                1 Day
+                            </small>
+                        </span>
+
+                        <b>
+                            ₦200
+                        </b>
+
+                        <button
+                            onclick="buy(200)">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+
+                    <div class="plan">
+
+                        <span>
+                            1GB
+                            <small>
+                                1 Day
+                            </small>
+                        </span>
+
+                        <b>
+                            ₦350
+                        </b>
+
+                        <button
+                            onclick="buy(350)">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+
+                    <div class="plan">
+
+                        <span>
+                            2GB
+                            <small>
+                                3 Days
+                            </small>
+                        </span>
+
+                        <b>
+                            ₦700
+                        </b>
+
+                        <button
+                            onclick="buy(700)">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+
+                    <div class="plan">
+
+                        <span>
+                            3GB
+                            <small>
+                                3 Days
+                            </small>
+                        </span>
+
+                        <b>
+                            ₦1,000
+                        </b>
+
+                        <button
+                            onclick="buy(1000)">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+
+                    <div class="plan">
+
+                        <span>
+                            5GB
+                            <small>
+                                7 Days
+                            </small>
+                        </span>
+
+                        <b>
+                            ₦1,600
+                        </b>
+
+                        <button
+                            onclick="buy(1600)">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+
+                    <div class="plan">
+
+                        <span>
+                            10GB
+                            <small>
+                                30 Days
+                            </small>
+                        </span>
+
+                        <b>
+                            ₦3,000
+                        </b>
+
+                        <button
+                            onclick="buy(3000)">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+</div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
