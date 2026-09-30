@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>VtuPro - Electricity</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+    <aside class="side">
+
+        <a class="brand"
+           href="dashboard.html">
+
+            <span class="mark">
+                ⚡
+            </span>
+
+            <span>
+                VtuPro
+            </span>
+
+        </a>
+
+
+        <a href="dashboard.html">
+            🏠 Dashboard
+        </a>
+
+        <a href="data.html">
+            📶 Buy Data
+        </a>
+
+        <a href="airtime.html">
+            📱 Buy Airtime
+        </a>
+
+        <a class="active"
+           href="electricity.html">
+            ⚡ Pay Electricity
+        </a>
+
+        <a href="wallet.html">
+            💳 Wallet
+        </a>
+
+        <a href="transactions.html">
+            🧾 Transactions
+        </a>
+
+        <a href="#">
+            🎧 Support
+        </a>
+
+        <a href="#">
+            ⚙️ Settings
+        </a>
+
+        <a class="logout"
+           href="index.html">
+            ↪ Logout
+        </a>
+
+    </aside>
+
+
+    <main class="main">
+
+
+        <header class="apphead">
+
+            <b>
+                Pay Electricity
+            </b>
+
+            <div class="avatar">
+                J
+            </div>
+
+        </header>
+
+
+        <section class="content">
+
+
+            <h1>
+                Pay Electricity
+            </h1>
+
+            <p class="muted">
+                Buy electricity token for your meter.
+            </p>
+
+
+            <br>
+
+
+            <div class="panel purchase">
+
+
+                <div class="formgrid">
+
+
+                    <div class="field">
+
+                        <label>
+                            Provider
+                        </label>
+
+                        <select class="input">
+
+                            <option>
+                                EEDC
+                            </option>
+
+                            <option>
+                                AEDC
+                            </option>
+
+                            <option>
+                                EKEDC
+                            </option>
+
+                            <option>
+                                IBEDC
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label>
+                            Meter Type
+                        </label>
+
+                        <select class="input">
+
+                            <option>
+                                Prepaid
+                            </option>
+
+                            <option>
+                                Postpaid
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Meter Number
+                    </label>
+
+                    <input
+                        class="input"
+                        placeholder="Enter meter number">
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Amount
+                    </label>
+
+                    <select
+                        class="input"
+                        id="electricityAmount">
+
+                        <option value="">
+                            Select amount
+                        </option>
+
+                        <option value="1000">
+                            ₦1,000
+                        </option>
+
+                        <option value="2000">
+                            ₦2,000
+                        </option>
+
+                        <option value="5000">
+                            ₦5,000
+                        </option>
+
+                        <option value="10000">
+                            ₦10,000
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button
+                    class="btn primary full"
+                    onclick="electricity()">
+
+                    Proceed to Pay
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+</div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
