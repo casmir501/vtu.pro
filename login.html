@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>VtuPro - Login</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+<header class="top">
+
+    <a class="brand"
+       href="index.html">
+
+        <span class="mark">
+            ⚡
+        </span>
+
+        VtuPro
+
+    </a>
+
+
+    <div class="actions">
+
+        <a class="btn ghost"
+           href="index.html">
+
+            Home
+
+        </a>
+
+        <a class="btn primary"
+           href="register.html">
+
+            Register
+
+        </a>
+
+    </div>
+
+</header>
+
+
+<main class="auth">
+
+    <div class="authbox">
+
+
+        <aside class="info">
+
+            <span class="badge">
+                WELCOME BACK
+            </span>
+
+
+            <h1>
+
+                Stay
+                <span class="purple">
+                    Connected
+                </span>
+
+            </h1>
+
+
+            <p>
+
+                Top up, pay bills and manage your account
+                from anywhere.
+
+            </p>
+
+
+            <div class="benefit">
+
+                <i>📶</i>
+
+                <div>
+
+                    <b>
+                        Buy Data
+                    </b>
+
+                    <small>
+                        Affordable bundles.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <i>📱</i>
+
+                <div>
+
+                    <b>
+                        Buy Airtime
+                    </b>
+
+                    <small>
+                        All supported networks.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <i>⚡</i>
+
+                <div>
+
+                    <b>
+                        Pay Bills
+                    </b>
+
+                    <small>
+                        Electricity made easy.
+                    </small>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <section class="form">
+
+            <h2>
+                Welcome Back
+            </h2>
+
+            <p class="sub">
+                Login to your account to continue.
+            </p>
+
+
+            <div id="msg"
+                 class="msg">
+            </div>
+
+
+            <form onsubmit="login(event)">
+
+
+                <div class="field">
+
+                    <label>
+                        Phone Number or Email
+                    </label>
+
+                    <input
+                        class="input"
+                        id="loginId"
+                        required
+                        placeholder="Phone or email">
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Password
+                    </label>
+
+                    <input
+                        class="input"
+                        id="loginPassword"
+                        type="password"
+                        required
+                        placeholder="Password">
+
+                </div>
+
+
+                <div class="login-options">
+
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">
+                        Forgot password?
+                    </a>
+
+                </div>
+
+
+                <button class="btn primary full">
+
+                    Login
+
+                </button>
+
+
+            </form>
+
+
+            <div class="authbottom">
+
+                Don't have an account?
+
+                <a class="link"
+                   href="register.html">
+
+                    Register
+
+                </a>
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+</main>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
