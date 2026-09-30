@@ -12,12 +12,12 @@ const S = {
     wallet:
         Number(
             localStorage.getItem("vtu_wallet")
-        ) || 5000,
+        ) || 0,
 
     profit:
         Number(
             localStorage.getItem("vtu_profit")
-        ) || 2450,
+        ) || 0,
 
     count:
         Number(
